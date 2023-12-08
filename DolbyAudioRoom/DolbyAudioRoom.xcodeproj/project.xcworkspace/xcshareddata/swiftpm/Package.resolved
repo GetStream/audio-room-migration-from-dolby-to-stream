@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "voxeet-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/voxeet/voxeet-sdk-ios",
+      "state" : {
+        "revision" : "659365ce8ed755d47790fc928d22b709aa0324a2",
+        "version" : "3.11.0"
+      }
+    }
+  ],
+  "version" : 2
+}

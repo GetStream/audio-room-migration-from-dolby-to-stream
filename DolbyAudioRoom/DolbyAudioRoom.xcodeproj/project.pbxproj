@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		408AF9F22B20D8C80078EED3 /* DolbyAudioRoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AF9F12B20D8C80078EED3 /* DolbyAudioRoomApp.swift */; };
+		408AF9F42B20D8C80078EED3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AF9F32B20D8C80078EED3 /* ContentView.swift */; };
+		408AF9F62B20D8C90078EED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408AF9F52B20D8C90078EED3 /* Assets.xcassets */; };
+		408AF9FA2B20D8C90078EED3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408AF9F92B20D8C90078EED3 /* Preview Assets.xcassets */; };
+		408AFA032B20E2810078EED3 /* VoxeetSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 408AFA022B20E2810078EED3 /* VoxeetSDK */; };
+		408AFA072B233A5C0078EED3 /* VoxeetSDKViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AFA062B233A5C0078EED3 /* VoxeetSDKViewModel.swift */; };
+		408AFA092B233A850078EED3 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AFA082B233A850078EED3 /* DescriptionView.swift */; };
+		408AFA0B2B233A8C0078EED3 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AFA0A2B233A8C0078EED3 /* ControlsView.swift */; };
+		408AFA0D2B233A930078EED3 /* MicButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AFA0C2B233A930078EED3 /* MicButtonView.swift */; };
+		408AFA0F2B233A9A0078EED3 /* LiveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AFA0E2B233A9A0078EED3 /* LiveButtonView.swift */; };
+		408AFA112B233AA00078EED3 /* ParticipantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AFA102B233AA00078EED3 /* ParticipantView.swift */; };
+		408AFA132B233AA60078EED3 /* ParticipantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AFA122B233AA60078EED3 /* ParticipantsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		408AF9EF2B20D8C80078EED3 /* DolbyAudioRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolbyAudioRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408AF9F12B20D8C80078EED3 /* DolbyAudioRoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolbyAudioRoomApp.swift; sourceTree = "<group>"; };
+		408AF9F32B20D8C80078EED3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		408AF9F52B20D8C90078EED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		408AF9F72B20D8C90078EED3 /* DolbyAudioRoom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DolbyAudioRoom.entitlements; sourceTree = "<group>"; };
+		408AF9F92B20D8C90078EED3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		408AFA062B233A5C0078EED3 /* VoxeetSDKViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoxeetSDKViewModel.swift; sourceTree = "<group>"; };
+		408AFA082B233A850078EED3 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		408AFA0A2B233A8C0078EED3 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		408AFA0C2B233A930078EED3 /* MicButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicButtonView.swift; sourceTree = "<group>"; };
+		408AFA0E2B233A9A0078EED3 /* LiveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveButtonView.swift; sourceTree = "<group>"; };
+		408AFA102B233AA00078EED3 /* ParticipantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantView.swift; sourceTree = "<group>"; };
+		408AFA122B233AA60078EED3 /* ParticipantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408AF9EC2B20D8C80078EED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408AFA032B20E2810078EED3 /* VoxeetSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408AF9C82B20BA480078EED3 = {
+			isa = PBXGroup;
+			children = (
+				408AF9F02B20D8C80078EED3 /* DolbyAudioRoom */,
+				408AF9D22B20BA480078EED3 /* Products */,
+				408AFA012B20E2810078EED3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		408AF9D22B20BA480078EED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408AF9EF2B20D8C80078EED3 /* DolbyAudioRoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408AF9F02B20D8C80078EED3 /* DolbyAudioRoom */ = {
+			isa = PBXGroup;
+			children = (
+				408AFA052B233A370078EED3 /* Views */,
+				408AFA042B233A300078EED3 /* Components */,
+				408AF9F12B20D8C80078EED3 /* DolbyAudioRoomApp.swift */,
+				408AF9F52B20D8C90078EED3 /* Assets.xcassets */,
+				408AF9F72B20D8C90078EED3 /* DolbyAudioRoom.entitlements */,
+				408AF9F82B20D8C90078EED3 /* Preview Content */,
+			);
+			path = DolbyAudioRoom;
+			sourceTree = "<group>";
+		};
+		408AF9F82B20D8C90078EED3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				408AF9F92B20D8C90078EED3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		408AFA012B20E2810078EED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		408AFA042B233A300078EED3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				408AFA062B233A5C0078EED3 /* VoxeetSDKViewModel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		408AFA052B233A370078EED3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				408AF9F32B20D8C80078EED3 /* ContentView.swift */,
+				408AFA082B233A850078EED3 /* DescriptionView.swift */,
+				408AFA0A2B233A8C0078EED3 /* ControlsView.swift */,
+				408AFA0C2B233A930078EED3 /* MicButtonView.swift */,
+				408AFA0E2B233A9A0078EED3 /* LiveButtonView.swift */,
+				408AFA102B233AA00078EED3 /* ParticipantView.swift */,
+				408AFA122B233AA60078EED3 /* ParticipantsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408AF9EE2B20D8C80078EED3 /* DolbyAudioRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408AF9FB2B20D8C90078EED3 /* Build configuration list for PBXNativeTarget "DolbyAudioRoom" */;
+			buildPhases = (
+				408AF9EB2B20D8C80078EED3 /* Sources */,
+				408AF9EC2B20D8C80078EED3 /* Frameworks */,
+				408AF9ED2B20D8C80078EED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolbyAudioRoom;
+			packageProductDependencies = (
+				408AFA022B20E2810078EED3 /* VoxeetSDK */,
+			);
+			productName = "DolbyAudioRoom-Swiftui";
+			productReference = 408AF9EF2B20D8C80078EED3 /* DolbyAudioRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408AF9C92B20BA480078EED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					408AF9EE2B20D8C80078EED3 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 408AF9CC2B20BA480078EED3 /* Build configuration list for PBXProject "DolbyAudioRoom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408AF9C82B20BA480078EED3;
+			packageReferences = (
+				408AF9E82B20BA640078EED3 /* XCRemoteSwiftPackageReference "voxeet-sdk-ios" */,
+			);
+			productRefGroup = 408AF9D22B20BA480078EED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408AF9EE2B20D8C80078EED3 /* DolbyAudioRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408AF9ED2B20D8C80078EED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408AF9FA2B20D8C90078EED3 /* Preview Assets.xcassets in Resources */,
+				408AF9F62B20D8C90078EED3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408AF9EB2B20D8C80078EED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408AFA0D2B233A930078EED3 /* MicButtonView.swift in Sources */,
+				408AF9F42B20D8C80078EED3 /* ContentView.swift in Sources */,
+				408AFA112B233AA00078EED3 /* ParticipantView.swift in Sources */,
+				408AFA072B233A5C0078EED3 /* VoxeetSDKViewModel.swift in Sources */,
+				408AF9F22B20D8C80078EED3 /* DolbyAudioRoomApp.swift in Sources */,
+				408AFA0B2B233A8C0078EED3 /* ControlsView.swift in Sources */,
+				408AFA0F2B233A9A0078EED3 /* LiveButtonView.swift in Sources */,
+				408AFA092B233A850078EED3 /* DescriptionView.swift in Sources */,
+				408AFA132B233AA60078EED3 /* ParticipantsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		408AF9E32B20BA490078EED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408AF9E42B20BA490078EED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		408AF9FC2B20D8C90078EED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "${TARGET_NAME}/${TARGET_NAME}.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"${TARGET_NAME}/Preview Content\"";
+				DEVELOPMENT_TEAM = EHV7XZLAHA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "${TARGET_NAME} requires microphone access in order to capture and transmit audio";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.tutorial.dolbyaudioroom.migration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		408AF9FD2B20D8C90078EED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "${TARGET_NAME}/${TARGET_NAME}.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"${TARGET_NAME}/Preview Content\"";
+				DEVELOPMENT_TEAM = EHV7XZLAHA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "${TARGET_NAME} requires microphone access in order to capture and transmit audio";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.tutorial.dolbyaudioroom.migration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408AF9CC2B20BA480078EED3 /* Build configuration list for PBXProject "DolbyAudioRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408AF9E32B20BA490078EED3 /* Debug */,
+				408AF9E42B20BA490078EED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408AF9FB2B20D8C90078EED3 /* Build configuration list for PBXNativeTarget "DolbyAudioRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408AF9FC2B20D8C90078EED3 /* Debug */,
+				408AF9FD2B20D8C90078EED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		408AF9E82B20BA640078EED3 /* XCRemoteSwiftPackageReference "voxeet-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/voxeet/voxeet-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		408AFA022B20E2810078EED3 /* VoxeetSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 408AF9E82B20BA640078EED3 /* XCRemoteSwiftPackageReference "voxeet-sdk-ios" */;
+			productName = VoxeetSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 408AF9C92B20BA480078EED3 /* Project object */;
+}
